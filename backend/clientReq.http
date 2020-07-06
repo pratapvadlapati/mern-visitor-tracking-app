@@ -1,0 +1,25 @@
+
+POST http://localhost:4488/api/visitorLogin
+Content-Type: application/json
+
+{
+	"name": "pavani",
+	"tokenId": "022",
+	"phone": 9966666
+}
+
+
+POST http://localhost:4488/api/user/signup
+Content-Type: application/json
+{
+	"username": "c",
+	"password": "1234",
+	"email": "c@gmail.com"
+}
+
+POST http://localhost:4488/api/user/login
+Content-Type: application/json
+{
+	"username": "s",
+	"password": "s123",
+}
